@@ -1,0 +1,38 @@
+{
+  "FastLabel": {
+    "v2": {
+      "ListConsignments": {
+        "allOf": [
+          {
+            "type": "object",
+            "properties": {
+              "ManifestID": {
+                "type": "number"
+              },
+              "ConsignmentID": {
+                "type": "number"
+              }
+            },
+            "additionalProperties": false
+          },
+          {
+            "anyOf": [
+              {
+                "type": "object",
+                "required": [
+                  "ManifestID"
+                ]
+              },
+              {
+                "type": "object",
+                "required": [
+                  "ConsignmentID"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
