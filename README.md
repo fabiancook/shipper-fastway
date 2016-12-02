@@ -2,6 +2,8 @@
 
 > Please note, this module makes use of the `--harmony_async_await` flag of node
 
+You must register an implementation of `promise-any` to use this module
+
 ## Usage
 
 ### Definitions
