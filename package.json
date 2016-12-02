@@ -6,6 +6,10 @@
   "scripts": {
     "test": "mocha --harmony \"test/**/*.js\""
   },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/fabiancook/shipper-fastway.git"
+  },
   "author": "Fabian Cook <fabian@shipper.co.nz>",
   "license": "Apache-2.0",
   "engines": {
