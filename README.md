@@ -8,7 +8,7 @@ You must register an implementation of `promise-any` to use this module
 
 ### Definitions
 
-We want to be able to validate our requests, to do this we use [https://spacetelescope.github.io/understanding-json-schema/](JSON Schema)
+We want to be able to validate our requests, to do this we use [JSON Schema](https://spacetelescope.github.io/understanding-json-schema/).
 
 We need a definition file to to this, it is defined as
 
